@@ -1,0 +1,4 @@
+<ng-container *ngIf="multipleTodosExist">
+  <input id="toggle-all" class="toggle-all" type="checkbox" [attr.checked]="isCompletedAll" (click)="toggleCompleteAll()">
+  <label for="toggle-all" class="toggle-all-label" title="Mark all as complete">Mark all as complete</label>
+</ng-container>
